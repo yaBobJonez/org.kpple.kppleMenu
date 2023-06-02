@@ -13,5 +13,6 @@ After you have finished translating, run `build.sh` to compile your locale. Have
 |  Locale  |  Lines  | % Done|
 |----------|---------|-------|
 | Template |      34 |       |
+| fr       |   34/34 |  100% |
 | ru       |   34/34 |  100% |
 | uk       |   34/34 |  100% |
