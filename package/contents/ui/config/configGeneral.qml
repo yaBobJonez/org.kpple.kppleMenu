@@ -162,11 +162,11 @@ Item {
         Column {
             anchors.left: parent.left
             Text {
-                text: i18n("Adapt the links with your own command lines")
+                text: i18n("Adapt the links with your own commands.")
             }
             Text {
                 color: "red"
-                text: i18n("( Warning : This is the expert mode, do not change anything if the application is working properly. )")
+                text: i18n("Warning: this is the expert mode, do not change anything if the menu works properly!")
             }
         }
         
@@ -180,63 +180,63 @@ Item {
 
         TextField {
             id: aboutThisComputerSettings
-            Kirigami.FormData.label: i18n("About This Computer :")
+            Kirigami.FormData.label: i18n("About This Computer:")
             placeholderText: i18n("kinfocenter")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: systemPreferencesSettings
-            Kirigami.FormData.label: i18n("System Preferences :")
+            Kirigami.FormData.label: i18n("System Preferences:")
             placeholderText: i18n("systemsettings5")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: appStoreSettings
-            Kirigami.FormData.label: i18n ("App Store :")
+            Kirigami.FormData.label: i18n ("App Store:")
             placeholderText: i18n("plasma-discover")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: forceQuitSettings
-            Kirigami.FormData.label: i18n ("Force Quit :")
+            Kirigami.FormData.label: i18n ("Force Quit:")
             placeholderText: i18n("xkill")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: sleepSettings
-            Kirigami.FormData.label: i18n ("Sleep :")
+            Kirigami.FormData.label: i18n ("Sleep:")
             placeholderText: i18n("systemctl suspend")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: restartSettings
-            Kirigami.FormData.label: i18n ("Restart :")
+            Kirigami.FormData.label: i18n ("Restart:")
             placeholderText: i18n("/sbin/reboot")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: shutDownSettings
-            Kirigami.FormData.label: i18n ("Shut Down :")
+            Kirigami.FormData.label: i18n ("Shut Down:")
             placeholderText: i18n("/sbin/shutdown now")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: lockScreenSettings
-            Kirigami.FormData.label: i18n ("Lock Screen :")
+            Kirigami.FormData.label: i18n ("Lock Screen:")
             placeholderText: i18n("qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock")
             enabled: showAdvancedMode.checked
         }
         
         TextField {
             id: logOutSettings
-            Kirigami.FormData.label: i18n ("Log Out :")
+            Kirigami.FormData.label: i18n ("Log Out:")
             placeholderText: i18n("qdbus org.kde.ksmserver /KSMServer logout 0 0 0")
             enabled: showAdvancedMode.checked
         }

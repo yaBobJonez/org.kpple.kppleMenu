@@ -26,12 +26,7 @@ ConfigModel {
         icon: "configure"
         source: "config/configGeneral.qml"
     }
-    
-    ConfigCategory {
-        name: i18n("Help")
-        icon: "help-about"
-        source: "config/configHelp.qml"
-    }
+
 }
 
  

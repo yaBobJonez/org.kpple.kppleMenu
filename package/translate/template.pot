@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kppleMenu \n"
-"Report-Msgid-Bugs-To: https://github.com/kppleos\n"
-"POT-Creation-Date: 2023-06-02 11:22+0300\n"
+"Report-Msgid-Bugs-To: https://github.com/yaBobJonez\n"
+"POT-Creation-Date: 2023-06-02 11:48+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +19,6 @@ msgstr ""
 
 #: ../contents/config/config.qml
 msgid "Advanced"
-msgstr ""
-
-#: ../contents/config/config.qml
-msgid "Help"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -40,11 +36,11 @@ msgid "Clear Icon"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Adapt the links with your own command lines"
+msgid "Adapt the links with your own commands."
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "( Warning : This is the expert mode, do not change anything if the application is working properly. )"
+msgid "Warning: this is the expert mode, do not change anything if the menu works properly!"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -52,7 +48,7 @@ msgid "Show advanced mode"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "About This Computer :"
+msgid "About This Computer:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -60,7 +56,7 @@ msgid "kinfocenter"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "System Preferences :"
+msgid "System Preferences:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -68,7 +64,7 @@ msgid "systemsettings5"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "App Store :"
+msgid "App Store:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -76,7 +72,7 @@ msgid "plasma-discover"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Force Quit :"
+msgid "Force Quit:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -84,7 +80,7 @@ msgid "xkill"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Sleep :"
+msgid "Sleep:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -92,7 +88,7 @@ msgid "systemctl suspend"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Restart :"
+msgid "Restart:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -100,7 +96,7 @@ msgid "/sbin/reboot"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Shut Down :"
+msgid "Shut Down:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -108,7 +104,7 @@ msgid "/sbin/shutdown now"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Lock Screen :"
+msgid "Lock Screen:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
@@ -116,35 +112,11 @@ msgid "qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
-msgid "Log Out :"
+msgid "Log Out:"
 msgstr ""
 
 #: ../contents/ui/config/configGeneral.qml
 msgid "qdbus org.kde.ksmserver /KSMServer logout 0 0 0"
-msgstr ""
-
-#: ../contents/ui/config/configHelp.qml
-msgid "Do you need help ?"
-msgstr ""
-
-#: ../contents/ui/config/configHelp.qml
-msgid "About Kpple"
-msgstr ""
-
-#: ../contents/ui/config/configHelp.qml
-msgid "Consult the user's guide"
-msgstr ""
-
-#: ../contents/ui/config/configHelp.qml
-msgid "Repport a bug"
-msgstr ""
-
-#: ../contents/ui/config/configHelp.qml
-msgid "Donate for the project"
-msgstr ""
-
-#: ../contents/ui/config/configHelp.qml
-msgid "Couldn't find help ? Contact us at : info.kpple@gmail.com"
 msgstr ""
 
 #: ../contents/ui/main.qml
